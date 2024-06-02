@@ -182,7 +182,11 @@ def L_model_forward(X, parameters):
 
 def compute_cost(AL, Y):
     """
-    Implement the cost function defined by equation (7).
+    Implement the cost functio
+    
+    
+    
+    n defined by equation (7).
 
     Arguments:
     AL -- probability vector corresponding to your label predictions, shape (1, number of examples)
@@ -218,7 +222,7 @@ def linear_backward(dZ, cache):
     A_prev, W, b = cache
     m = A_prev.shape[1]
 
-    dW = 1./m * np.dot(dZ,A_prev.T)
+    dW = 1./m * np.dot(dZ,A_prev.T) 
     db = 1./m * np.sum(dZ, axis = 1, keepdims = True)
     dA_prev = np.dot(W.T,dZ)
     
