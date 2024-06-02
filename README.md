@@ -1,12 +1,11 @@
 # Implementing Neural Networks with Numpy from scratch
 
-Folders:
 ## Logistic Regression
 - folder: ```basics```
 - The math behind a sigle unit of Logistic Regression is beuatifully implemented using numpy. 
 - The intricacies of initializing weights and biases, forward and backward propagation, computing gradients, and updating weights and biases are implemented.
 - The code is tested on various sythetic datasets and on the cat vs non cat dataset. Decision boundary and learning curves are plotted for better understanding.
-<img src="sample_images/lr_output.png" alt="lr" width="200"/>
+<img src="sample_images/lr_output.png"/>
 
 ## Shallow Neural Networks 
 - folder: ```shallow_nn```
@@ -31,6 +30,7 @@ Folders:
     - Optimization: Mini-batch gradient descent, Momentum, Adam, RMSprop (In progress)
 
 <img src="sample_images/app_output.png"/>
+
 ## Diagnosis of Pneumonia using Deep Neural Networks trained on Chest X-ray images
 - folder: ```application```
 - The l_layer_nn is trained on the chest x-ray images to diagnose pneumonia.
