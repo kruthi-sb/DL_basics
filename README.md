@@ -26,8 +26,8 @@
 - folder: ```improving_nn```
 - improved_nn incorporates various techniques to improve the performance of the neural network such as:
     - Initialization: He initialization, Random initialization, Zero initialization
-    - Regularization: L2 regularization, Dropout (In progress)
-    - Optimization: Mini-batch gradient descent, Momentum, Adam, RMSprop (In progress)
+    - Regularization: L2 regularization, Dropout (Not Implemented)
+    - Optimization: Mini-batch gradient descent, Momentum, Adam, RMSprop (Not Implemented)
 
 <img src="sample_images/app_output.png"/>
 
@@ -35,4 +35,9 @@
 - folder: ```application```
 - The l_layer_nn is trained on the chest x-ray images to diagnose pneumonia.
 - The current model gives very less accuracy.
-- The improved neural network techniques are being implemented to improve the accuracy of the model. (In progress)
+- The improved neural network techniques are being implemented to improve the accuracy of the model. (Not Implemented)
+
+## Keras Basics
+- folder: ```keras_basics```
+- 1. Basic Applications: Covers MNIST, Fashion MNIST, and IMDB datasets.
+- 2. Operations: Covers basic operations in Keras such as Convolution, Pooling, Flatten, Dense, Dropout, BatchNormalization, etc. (In Progress)
